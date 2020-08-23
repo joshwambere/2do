@@ -1,0 +1,8 @@
+POST http://localhost:2000/api/todos
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvMkBnbWFpbC5jb20iLCJpc2FkbWluIjp0cnVlLCJpYXQiOjE1OTgwMTc0ODgsImV4cCI6MTU5ODAyMTA4OH0.rAgd0HpwStKO6MMPD3uTevIJnxOCals8xh06y5aWA_U
+
+{
+    "name": "monthly coding challenge 2",
+    "completed": false
+}
