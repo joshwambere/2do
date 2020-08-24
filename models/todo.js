@@ -1,8 +1,8 @@
-const mongoose=require("mongoose");
+const mongoose = require("mongoose");
 
-const shcema=mongoose.Schema({
-    name:String,
-    completed:Boolean
-})
+const shcema = mongoose.Schema({
+  name: String,
+  completed: Boolean,
+});
 
-module.exports=mongoose.model('Todo', shcema);
+module.exports = mongoose.model("Todo", shcema);
