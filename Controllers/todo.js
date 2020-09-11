@@ -27,10 +27,10 @@ class Todos {
       const todoFound = await todoModel.findOne({ _id: req.params.id });
       if (todoFound) {
         await todoModel.deleteOne({ _id: req.params.id });
-        res.status(402).send({
-          status:404,
+        res.send({
+          status:'Ok',
           message:'todo deleted successfuly'
-        })
+        }).status(204);
       } else {
         
         res.status.json({
