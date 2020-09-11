@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const bodyParser = require("body-parser");
 const router = require("./routes");
-const port = process.env.LOCAL_PORT || 7000;
+const port =  process.env.PORT || process.env.LOCAL_PORT;
 
 //connect to db
 mongoose.connect(process.env.CONNECT, { useNewUrlParser: true }).then(() => {
