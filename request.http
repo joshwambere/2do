@@ -1,4 +1,4 @@
-POST http://localhost:2000/api/todos/add
+POST http://localhost:5000/api/todos/add
 Content-Type: application/json
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvMkBnbWFpbC5jb20iLCJpc2FkbWluIjp0cnVlLCJpYXQiOjE1OTgwMTc0ODgsImV4cCI6MTU5ODAyMTA4OH0.rAgd0HpwStKO6MMPD3uTevIJnxOCals8xh06y5aWA_U
 
@@ -8,17 +8,17 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvMkBnbWFp
 }
 
 ###
-GET http://localhost:7000/api/todos
+GET http://localhost:5000/api/todos
 Content-Type: application/json
 
 
 ###
-DELETE  http://localhost:2000/api/todo/delete/5f5adde49968614fe7995639
+DELETE  http://localhost:5000/api/todo/delete/5f5adde49968614fe7995639
 Content-Type: application/json
 
 
 ###
-PUT   http://localhost:2000/api/todo/update/5f5adde49968614fe7995639
+PUT   http://localhost:5000/api/todo/update/5f5adde49968614fe7995639
 Content-Type: application/json
 
 {
